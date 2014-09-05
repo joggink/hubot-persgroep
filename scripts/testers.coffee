@@ -23,7 +23,7 @@ getGif = (blog, msg) ->
     msg.send post.photos[0].original_size.url
 
 module.exports = (robot) ->
-  robot.respond /gif(sanity)?( me)?/i, (msg) ->
+  robot.hear /tester/i, (msg) ->
     blog = msg.random Object.keys(SOURCES)
     getGif blog, msg
 
