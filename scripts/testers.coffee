@@ -14,9 +14,6 @@
 #   @joggink
 
 tumblr = require "tumblrbot"
-SOURCES = {
-  "devopsreactions.tumblr.com": /tester/i
-}
 
 getGif = (blog, msg) ->
   tumblr.photos(blog).random (post) ->
@@ -24,9 +21,4 @@ getGif = (blog, msg) ->
 
 module.exports = (robot) ->
   robot.hear /tester/i, (msg) ->
-    blog = msg.random Object.keys(SOURCES)
-    getGif blog, msg
-
-  for blog,pattern of SOURCES
-    robot.respond pattern, (msg) ->
-      getGif blog, msg
+    getGif 'devopsreactions.tumblr.com', msg
