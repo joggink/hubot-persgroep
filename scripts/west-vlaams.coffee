@@ -136,7 +136,7 @@ quotes = [
 		"'t oenderste uut de kanne willen",
 		"t smoort",
 		"té nie meugn zin",
-		"er geen "sjense" meer voor hebben",
+		"er geen 'sjense meer voor hebben",
 		"de rutte der ut en trint der in",
 		"'t rint, 't giet",
 		"het rint dat 't zikt",
