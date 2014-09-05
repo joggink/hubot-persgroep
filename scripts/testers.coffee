@@ -1,5 +1,5 @@
 # Description:
-#   Pulls GIFs from various insane tumblrs
+#   Pulls GIFs from devopsreactions.tumblr.com
 #
 # Dependencies:
 #   "tumblrbot": "0.1.0"
