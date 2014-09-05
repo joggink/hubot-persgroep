@@ -307,5 +307,5 @@ quotes = [
 
 module.exports = (robot) ->
 
-  robot.hear /wuk/i, (msg) ->
+  robot.respond /wuk/i, (msg) ->
     msg.send msg.random quotes
