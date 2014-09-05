@@ -7,13 +7,11 @@
 #
 #
 # Commands:
-#   tester - Returns a random meme image
+#   tester - I can't hear that word
 #
 # Author:
-#   EnriqueVidal 
-#
-# Contributors:
-#   @joggink
+#   @joggink 
+
 
 Select      = require( "soupselect" ).select
 HTMLParser  = require "htmlparser"
