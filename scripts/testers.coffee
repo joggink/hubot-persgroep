@@ -15,7 +15,7 @@
 
 tumblr = require "tumblrbot"
 SOURCES = {
-  "http://devopsreactions.tumblr.com": /tester/i
+  "devopsreactions.tumblr.com": /tester/i
 }
 
 getGif = (blog, msg) ->
